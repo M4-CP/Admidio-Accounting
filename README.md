@@ -50,9 +50,9 @@ Hier werden die einzelnen Konten mit dem Budget und dem Vorjahr verglichen und e
 
 z.B.
 
-```
-Von den Beiträgen wurden xxx,00 € eingenommen. Leider sind noch Beträge offen ...
-```
+
+> Von den Beiträgen wurden xxx,00 € eingenommen. Leider sind noch Beträge offen ...
+
 
 ### Einnahmenübersicht
 
