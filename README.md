@@ -24,6 +24,9 @@ echo "Hallo $vorname $nachname";
 ?>
 ```
 
+```
+<a href="artikel.php?id=234">Das PHP Einsteiger Buch</a>
+```
 ## Datenmodell
 
 ### Tabellen
