@@ -7,7 +7,7 @@ include('Scripts/Comon.php');
 /*************************************************
 * Seitentitel hier eingeben:
 **************************************************/
-$headline = 'Leer';
+$headline = 'Accounting';
 
 //Begin der Seite
 $page = new HtmlPage($headline);
