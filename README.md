@@ -44,6 +44,15 @@ Feld | Name | Format | Key
 ## Berichte
 
 ### Kassenbericht
+#### Zahlen
+#### Zum Vortragen
+Hier werden die einzelnen Konten mit dem Budget und dem Vorjahr verglichen und eine Aussage zusammengebaut.
+
+z.B.
+
+```
+Von den Beiträgen wurden xxx,00 € eingenommen. Leider sind noch Beträge offen ...
+```
 
 ### Einnahmenübersicht
 
