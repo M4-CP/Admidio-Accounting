@@ -2,6 +2,9 @@
 
 # Admidio-Accounting
 Buchhaltung-Plugin für Vereine
+# Requirements
+Admidio Version 3.3.10 or higher
+
 ## Annahme
 ![alt text][logo] In der Erstannahme geht es darum die bestehenden Prozesse durch ein erweitertes Tool abzulösen. Es sind neben den klassischen Bankbuchungen und Kassenbuchungen, die Rechnungs udn Belegerfassung vorgesehen. Darüberhinaus ein Reisekosten Management.
 
