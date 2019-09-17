@@ -1,4 +1,4 @@
-[logo]: https://github.com/M4-CP/Admidio-Accounting/blob/master/Images/accounting.png | width=100px "Screenshot"
+[logo]: https://github.com/M4-CP/Admidio-Accounting/blob/master/Images/accounting.png "Screenshot"
 
 # Admidio-Accounting
 Buchhaltung-Plugin für Vereine
