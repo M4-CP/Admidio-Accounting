@@ -14,7 +14,7 @@ require_once(substr(__FILE__, 0,strpos(__FILE__, 'adm_plugins')-1).'/adm_program
 
 
 $app_url = substr(__DIR__ ). '/adm_plugins/accounting/';
-$app_show = $app_url . 'buchhaltung_show.php';
+$app_show = $app_url . 'accounting.php';
 $image_url = $app_url . 'Images/';
 
 ?>
