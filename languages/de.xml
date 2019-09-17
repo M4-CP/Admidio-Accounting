@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="FI_B1">House</string>
+    <string name="FI_B2">Dog</string>
+    <string name="FI_B3">This is a very long text where it's not possible to get a good identifier.</string>
+</resources>
