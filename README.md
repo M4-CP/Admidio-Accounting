@@ -16,13 +16,13 @@ Aufbau eines eigenen Frameworks. Hierzu wird im Scriptverzeichnis eine Datei ang
 
 ### $get
 
-´´´ PHP
+``` PHP
 <?php
 $vorname = $_GET['vorname'];
 $nachname = $_GET['nachname'];
 echo "Hallo $vorname $nachname";
 ?>
-´´´
+```
 
 ## Datenmodell
 
