@@ -8,4 +8,28 @@ Aufbau eines eigenen Frameworks. Hierzu wird im Scriptverzeichnis eine Datei ang
 
 ### Tabellen
 
-#### Konten
+#### Konten/KOntierung
+
+#### Bilanzstruktur
+
+#### Buchungen
+
+## Berichte
+
+## Eingaben
+
+### Belegeingabe
+
+#### Rechnung
+
+#### Kontoauszug
+
+#### Kasse
+
+#### Reisekosten
+
+##### Belegeingabe
+
+##### Belegfreigabe
+
+
