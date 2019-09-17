@@ -11,6 +11,19 @@ Des weiteren soll es eine Budget und Kostenstellenplanung geben.
 
 ## Ansatz
 Aufbau eines eigenen Frameworks. Hierzu wird im Scriptverzeichnis eine Datei angelegt, die die Grundeinstellungen der Gesamten Individualwerte entspricht.
+
+## Steuerung
+
+### $get
+
+´´´ PHP
+<?php
+$vorname = $_GET['vorname'];
+$nachname = $_GET['nachname'];
+echo "Hallo $vorname $nachname";
+?>
+´´´
+
 ## Datenmodell
 
 ### Tabellen
