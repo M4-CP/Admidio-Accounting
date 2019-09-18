@@ -15,6 +15,14 @@ Des weiteren soll es eine Budget und Kostenstellenplanung geben.
 ## Ansatz
 Aufbau eines eigenen Frameworks. Hierzu wird im Scriptverzeichnis eine Datei angelegt, die die Grundeinstellungen der Gesamten Individualwerte entspricht.
 
+1. Dateigrundlage
+2. Buttons
+3. Tabellen
+a. erstellen
+b. abfragen
+4. Setup
+5. Organisationen
+
 ## Steuerung
 
 ### $get
