@@ -18,10 +18,10 @@ $app_show = $app_url . 'accounting.php';
 $image_url = $app_url . 'Images/';
 $script_url = 'Scripts/';
 
-  function bar()
-  {
-   return 'Ich existiere nicht, bis foo() aufgerufen wurde.';
-  }
+//  function bar()
+//  {
+//   return 'Ich existiere nicht, bis foo() aufgerufen wurde.';
+//  }
 
 function bbutton ($Link, $Label1, $Label2)
 	{
