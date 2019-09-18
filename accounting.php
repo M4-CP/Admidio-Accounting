@@ -47,7 +47,7 @@ $page->addHtml(' ');
 $page->addHtml(' <p><img src='. $image_url . 'Logo.png width= 80%');
 $page->addHtml('<div></center>');
 
-$page->addHtml(bar());
+//$page->addHtml(bar());
 
 $page->addHtml('<center><div>');
 
