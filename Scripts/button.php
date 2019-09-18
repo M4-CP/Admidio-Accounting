@@ -1,7 +1,7 @@
 <?php
 // Erzeuge ein 100*30 Bild
 //$im = imagecreate(100, 30);
-include('Comon.php');
+include('Common.php');
 
 $limage = 'images/button1.png';
 $im     = imagecreatefrompng($limage);
