@@ -51,7 +51,7 @@ $page->addHtml('<div></center>');
 
 $page->addHtml('<center><div>');
 
-$page->addHtml(bbutton ($app_show, 'Test 1','Habe mal ...'));
+$page->addHtml(bbutton ('accounting_process.php', 'Test 1','Habe mal ...'));
 $page->addHtml(bbutton ($app_show, 'Bank','Konto 1'));
 $page->addHtml(bbutton ($app_show, 'Kasse','Kasse 1'));
 
