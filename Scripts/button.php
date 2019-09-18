@@ -1,12 +1,23 @@
-
 <?php
-include ('Comon.php');
-header("Content-type: image/png");
+// Erzeuge ein 100*30 Bild
+//$im = imagecreate(100, 30);
+include('Comon.php');
+
+$limage = 'images/button1.png';
+$im     = imagecreatefrompng($limage);
+// Weißer Hintergrund und blauer Text
+$bg = imagecolorallocate($im, 255, 255, 255);
+$textcolor = imagecolorallocate($im, 0, 0, 255);
+//$py     = (imagesy($im) / 2;
 $string = $_GET['text'];
-$im     = imagecreatefrompng($image_url."kisspng-finance-business-saving-investment-security-hand-writing-finance-5a7326c4441993.4362403415174960042789.png");
-$orange = imagecolorallocate($im, 220, 210, 60);
 $px     = (imagesx($im) - 7.5 * strlen($string)) / 2;
-imagestring($im, 3, $px, 9, $string, $orange);
+
+// Schreibe die Zeichenkette oben links
+imagestring($im, 5, $px, 40, $string, $textcolor);
+
+// Gib das Bild aus
+header('Content-type: image/png');
+
 imagepng($im);
 imagedestroy($im);
 
