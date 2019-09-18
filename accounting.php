@@ -42,53 +42,21 @@ $page->addHtml('       ');
 
 
 // $page->addHtml('<form action="'.$app_show.'"><input height=20px type="submit" value="Testeintrag" /></form>');
+$page->addHtml('<center><div>');
+$page->addHtml(' ');
+$page->addHtml(' <p><img src='. $image_url . 'Logo.png width= 80%');
+$page->addHtml('<div></center>');
 
+$page->addHtml(bar());
 
-$page->addHtml('<div>');
+$page->addHtml('<center><div>');
 
-$page->addHtml('<a href="'.$app_show.'" title="Backn">');
-$page->addHtml('<button name="Klickmich" type="button" minwidth="150" minheight="200"');
-$page->addHtml('  value="SELFHTML">');
-$page->addHtml(' <p><img src="' . $image_url . 'Blanko.png" width="155" height="109" border="0" alt="SELFHTML Logo"><br>');
-$page->addHtml(' <b>Hauptseite</b></p>');
-$page->addHtml('</button></a>');
+$page->addHtml(bbutton ($app_show, 'Test 1','Habe mal ...'));
+$page->addHtml(bbutton ($app_show, 'Bank','Konto 1'));
+$page->addHtml(bbutton ($app_show, 'Kasse','Kasse 1'));
 
-$page->addHtml('<button name="Klickmich" type="button"');
-$page->addHtml('  value="SELFHTML">');
-$page->addHtml(' <p><img src="https://www2.informatik.hu-berlin.de/Themen/www/selfhtml/html/formulare/anzeige/selfhtml.gif" width="106" height="109" border="0" alt="SELFHTML Logo"><br>');
-$page->addHtml(' <b>SELFHTML Portalseite</b></p>');
-$page->addHtml('</button>');
+$page->addHtml('</div></center>');
 
-$page->addHtml('<a href="http://wiki.selfhtml.org/wiki/href" title="mehr Informationen">');
-$page->addHtml('<button name="Klickmich" type="button"');
-$page->addHtml('  value="SELFHTML">');
-$page->addHtml(' <p><img src="https://www2.informatik.hu-berlin.de/Themen/www/selfhtml/html/formulare/anzeige/selfhtml.gif" width="106" height="109" border="0" alt="SELFHTML Logo"><br>');
-$page->addHtml(' <b>SELFHTML Portalseite</b></p>');
-$page->addHtml('</button></a>');
-
-$page->addHtml('</div>');
-
-$page->addHtml('<div>');
-
-$page->addHtml('<a href="http://wiki.selfhtml.org/wiki/href" title="mehr Informationen">');
-$page->addHtml('<button name="Klickmich" type="button"');
-$page->addHtml('  value="SELFHTML">');
-$page->addHtml(' <p><img src="https://www2.informatik.hu-berlin.de/Themen/www/selfhtml/html/formulare/anzeige/selfhtml.gif" width="106" height="109" border="0" alt="SELFHTML Logo"><br>');
-$page->addHtml(' <b>SELFHTML Portalseite</b></p>');
-$page->addHtml('</button></a>');
-$page->addHtml('<button name="Klickmich" type="button"');
-$page->addHtml('  value="SELFHTML">');
-$page->addHtml(' <p><img src="https://www2.informatik.hu-berlin.de/Themen/www/selfhtml/html/formulare/anzeige/selfhtml.gif" width="106" height="109" border="0" alt="SELFHTML Logo"><br>');
-$page->addHtml(' <b>SELFHTML Portalseite</b></p>');
-$page->addHtml('</button>');
-$page->addHtml('<a href="http://wiki.selfhtml.org/wiki/href" title="mehr Informationen">');
-$page->addHtml('<button name="Klickmich" type="button"');
-$page->addHtml('  value="SELFHTML">');
-$page->addHtml(' <p><img src="https://www2.informatik.hu-berlin.de/Themen/www/selfhtml/html/formulare/anzeige/selfhtml.gif" width="106" height="109" border="0" alt="SELFHTML Logo"><br>');
-$page->addHtml(' <b>SELFHTML Portalseite</b></p>');
-$page->addHtml('</button></a>');
-
-$page->addHtml('</div>');
 
 /********************************************
 * Seite anzeigen
