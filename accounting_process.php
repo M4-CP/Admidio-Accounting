@@ -2,7 +2,7 @@
 /*************************************************
 * Admidio Grundeinstellungen und Accounting Values
 **************************************************/
-include('Scripts/Comon.php');
+include('Scripts/Common.php');
 
 /*************************************************
 * Seitentitel hier eingeben:
